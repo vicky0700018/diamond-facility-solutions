@@ -327,7 +327,6 @@ export function ContactForm() {
     );
   }
 
-  const Field = ({ label, k, type = "text", ...rest }) => null;
 
   return (
     <form onSubmit={submit} noValidate className="rounded-2xl border border-border bg-card p-6 shadow-card">
